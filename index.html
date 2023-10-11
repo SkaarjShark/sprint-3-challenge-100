@@ -84,9 +84,9 @@
         let popped = this.ints.pop()
         return popped
       }
-      push() {
+      push(ints) {
         let updatedInts = this.ints
-        updatedInts.push(updatedInts[updatedInts.length-1]+1)
+        updatedInts.push(ints)
         return updatedInts
       }
       getEveryNth(nth) {
